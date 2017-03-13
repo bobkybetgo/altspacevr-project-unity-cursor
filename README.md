@@ -16,6 +16,8 @@
 
 4) 'Lighting Off' was meant to disable lighting, though the vert/frag functions already ignore lights.
 
+5) Commented out 'LockScreen' code, as it was causing problems in my editor.
+
 ## Part 2 - Enhancement
 
 # Files (in addition to files above)
