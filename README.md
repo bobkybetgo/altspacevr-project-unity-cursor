@@ -1,5 +1,5 @@
 # AltspaceVR Unity Cursor Programming Project - Steve Kim
-# Email: wyskim93@stanford.edu   OR   steve.kim1993@gmail.com
+- Email: wyskim93@stanford.edu   OR   steve.kim1993@gmail.com
 
 ## Part 1 - 3D Cursor 
 
