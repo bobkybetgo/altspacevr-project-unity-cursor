@@ -1,13 +1,13 @@
 # AltspaceVR Unity Cursor Programming Project - Steve Kim
 - Email: wyskim93@stanford.edu   OR   steve.kim1993@gmail.com
 
-## Part 1 - 3D Cursor 
+# Part 1 - 3D Cursor 
 
-# Files 
+## Files 
 	/Assets/Altspace/Scripts/SphericalCursorModule.cs
 	/Assets/Altspace/Scripts/MyShader.shader
 
-# Notes
+## Notes
 1) Changed value of DefaultCursorScale to be much higher (500, 500, 500), since the cursor was too small when there was no collision. Not sure if this is due to a mathematical error when calculating collision with the 'virtual' sphere. However, my implementation seems to set the position correctly. 
 
 2) Did not explicitly calculate the intersection point between raycast and 'virtual' sphere. Instead, I added the ray's origin to the product of SphereRadius and the ray's normal. This way, we find the point the ray would've hit the 'virtual' sphere of radius 1000 without actually having to use spherical coordinates.
@@ -18,15 +18,15 @@
 
 5) Commented out 'LockScreen' code, as it was causing problems in my editor.
 
-## Part 2 - Enhancement
+# Part 2 - Enhancement
 
-# Files (in addition to files above)
+## Files (in addition to files above)
 	/Assets/Altspace/Scripts/SphericalCursorModule.cs (modified)
 	/Assets/EnhancementScene
 	/Assets/Aquarium (3rd party assets)
 
 
-# Notes
+## Notes
 1) New map containing enhancements are in /Assets/EnhancementScene
 
 2) Cursor will turn red when mouse is over interactable portion of the aquarium (i.e., tapping on the glass). 
